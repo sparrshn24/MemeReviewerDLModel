@@ -173,10 +173,6 @@ Note: This script assumes it is running in a Google Colab environment and requir
 
 Feel free to modify the script or add additional functionality as needed for your specific image classification task.
 
-# Script Readme
-
-This script contains the implementation of various models for image and text classification using different architectures. Each model combines a convolutional neural network (CNN) for image processing and a BERT-based model for text processing. The models are trained on a dataset for meme classification.
-
 ## Model Architecture
 
 ### Baseline Models
@@ -433,8 +429,4 @@ y_true = mlb_true_labels
 
 print(classification_report(y_true, y_pred))
 ```
-
-This README provides an overview of the final results, model selection, test set preparation, predictions, and evaluation metrics for the chosen model.
-
-
 Feel free to modify the script according to your dataset and requirements. You can experiment with different architectures, hyperparameters, and training configurations to achieve better results.
